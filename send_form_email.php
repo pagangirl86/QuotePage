@@ -35,7 +35,7 @@ if(isset($_POST['email'])) {
  
        !isset($_POST['last_name']) ||
  
-       !isset($_POST['email']) ||
+       !isset($_POST['email']) ) {
 
         died('We are sorry, but there appears to be a problem with the form you submitted.');      
  
